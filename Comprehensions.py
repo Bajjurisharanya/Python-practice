@@ -74,7 +74,7 @@ heros=['Batman','Superman','Spiderman']
 my_dict={}
 for name,heros in zip(names,heros):
     my_dict[name]=heros
-print (my_dict)                                                           #o/p:{'Bruce','Batman','Clark','Superman'......}           
+print (my_dict)                                                           #o/p:{'Bruce':'Batman','Clark':'Superman'......}           
 
 
 
